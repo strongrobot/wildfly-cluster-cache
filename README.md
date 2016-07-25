@@ -30,7 +30,7 @@
   ```
 
 
-  ## Run
+## Run
   ```shell
   $JBOSS_HOME/bin/standalone.sh -c standalone-full-ha.xml -b $IPADDR -Djboss.node.name=node-$IPADDR -Djboss.messaging.cluster.password=$PASSWD -Djboss.node.key=$PASSWD
   ```
@@ -40,4 +40,4 @@
   ./standalone.sh -c standalone-full-ha.xml -Djboss.node.name=node2 -Djboss.messaging.cluster.password=zzz -Djboss.node.key=zzz
   ```
 
-  ## use Nginx/Apache load balance
+## use Nginx/Apache load balance
