@@ -26,7 +26,7 @@
   /subsystem=infinispan/cache-container=TEST/local-cache=y:add()
   /subsystem=infinispan/cache-container=TEST/local-cache=y/component=eviction:add(max-entries=5,strategy=FIFO)
 
-  ./jboss-cli.sh -c --file=add-caches.cli
+  ./jboss-cli.sh -c --file=caches.cli
   ```
 
 
